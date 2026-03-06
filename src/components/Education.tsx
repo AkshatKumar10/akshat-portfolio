@@ -11,7 +11,7 @@ export default function Education({ data }: { data: any[] }) {
       <div className="relative pl-10 border-l border-white/10 space-y-8">
         {data.map((edu, i) => (
           <div key={i} className="relative group">
-            <div className="absolute -left-11.25 top-1/5 w-3 h-3 rounded-full bg-blue-500 ring-4 ring-blue-500/20" />
+            <div className="absolute -left-11.25 top-1 w-3 h-3 rounded-full bg-blue-500 ring-4 ring-blue-500/20" />
             <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md shadow-sm hover:border-blue-500/40 hover:shadow-xl hover:shadow-blue-500/10 transition-colors">
               <h4 className="text-lg font-semibold text-white">
                 {edu.institution}

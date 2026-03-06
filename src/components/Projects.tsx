@@ -6,7 +6,7 @@ export default function Projects({ data }: { data: any[] }) {
   return (
     <section id="projects" className="py-12 px-6 max-w-6xl mx-auto">
       <motion.h2
-        initial={{ opacity: 0, x: 100 }}
+        initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
         className="text-4xl font-bold mb-16 flex items-center gap-4"
       >

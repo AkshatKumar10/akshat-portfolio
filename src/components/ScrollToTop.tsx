@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { ArrowUp } from "lucide-react";
 
-const ScrollToTop = () => {
+export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -38,6 +38,4 @@ const ScrollToTop = () => {
       )}
     </>
   );
-};
-
-export default ScrollToTop;
+}
