@@ -1,0 +1,109 @@
+{
+  "personal": {
+    "name": "Akshat Kumar",
+    "label": "Full Stack Developer",
+    "email": "akshat1058kumar@gmail.com",
+    "phone": "+91 7204293432",
+    "summary": "Full Stack Developer specializing in building scalable web and mobile applications, with experience in AI-driven tools, clean architecture, and user-centric design.",
+    "location": "India",
+    "profiles": [
+      { "social": "LinkedIn", "url": "https://linkedin.com/in/akshatkumar10" },
+      { "social": "GitHub", "url": "https://github.com/AkshatKumar10" },
+      { "social": "LeetCode", "url": "https://leetcode.com/akshatk10" }
+    ]
+  },
+  "skills": [
+    { "category": "Programming Languages", "items": ["C++", "Python"] },
+    { "category": "Libraries", "items": ["NumPy", "Pandas", "Matplotlib"] },
+    { "category": "Developer Tools", "items": ["React.js", "Docker", "React Native", "Next.js", "TypeScript", "Tailwind CSS", "Firebase", "HTML", "CSS"] },
+    { "category": "AI / Productivity Tools", "items": ["ChatGPT", "Claude", "Cursor", "GitHub Copilot"] },
+    { "category": "Softwares", "items": ["Android Studio", "Visual Studio Code", "Postman", "Git", "MS-Office"] },
+    { "category": "Databases", "items": ["SQL", "PostgreSQL", "MongoDB"] },
+    { "category": "Soft Skills", "items": ["Quick Learner", "Ability to work independently and collaboratively", "Problem Solving"] }
+  ],
+  "experience": [
+    {
+      "company": "Sanrekh AI",
+      "title": "Full Stack Developer - Internship",
+      "location": "Remote",
+      "start": "Sep 2025",
+      "end": "Oct 2025",
+      "description": [
+        "Built a full-stack AI Compliance tool to ensure AI content meets ethical and regulatory standards effectively.",
+        "Implemented a rule validation feature allowing users to add or upload rules and view them with categorized severity levels.",
+        "Developed the landing page with a clean layout, smooth interactions, and a user-friendly overall experience."
+      ]
+    },
+    {
+      "company": "superFi",
+      "title": "Full Stack Developer - Internship",
+      "location": "Remote",
+      "start": "Dec 2024",
+      "end": "Jun 2025",
+      "description": [
+        "Developed and optimized reusable UI components in React Native with Tailwind CSS, reducing frontend development time for new features by 20%.",
+        "Implemented a Bookmark feature, enabling users to save and access favorite content, which improved content retrieval efficiency & increased repeat engagement by 15%.",
+        "Integrated a Share feature, enabling users to share content across platforms, increasing app visibility and engagement.",
+        "Revamped the Credit Card UI, improving design, accessibility, and navigation for a more intuitive user experience."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "BookACook",
+      "date": "Nov 2025",
+      "stack": ["React Native(Expo)", "Docker", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase Cloud Messaging"],
+      "description": [
+        "Developed a dual-module cook-booking application enabling users to browse cooks, book services with integrated payments, and receive booking responses, with the backend containerized using Docker.",
+        "Built real-time FCM-based push notifications to ensure instant booking updates between users and cooks."
+      ],
+      "github":"https://github.com/AkshatKumar10/Book-a-Cook",
+      "demo":"https://drive.google.com/drive/folders/1kKgYL9ZLJU0-Z2yQX_2fNBLofq-M8pIJ"
+    },
+    {
+      "title": "Credit Risk Analysis",
+      "date": "Aug 2025",
+      "stack": ["Python", "Jupyter", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "MS-Excel", "SMOTE"],
+      "description": [
+        "Built a model to evaluate the credit worthiness of small businesses using SBA loan data and assess borrower risk.",
+        "Visualized data insights using Matplotlib and Seaborn, and improved model performance by handling class imbalance with Synthetic Minority Oversampling Technique (SMOTE)."
+      ],
+      "github":"https://github.com/AkshatKumar10/Book-a-Cook"
+    },
+    {
+      "title": "Expense Tracker",
+      "date": "Nov 2024",
+      "stack": ["React Native", "Expo", "Tailwind CSS", "Firebase", "Zustand"],
+      "description": [
+        "Developed a full-featured React Native mobile application for tracking group expenses, with a focus on real-time balance updates and seamless user experience.",
+        "Implemented features like equal/custom split, group management, expense history, summaries, using Zustand for state management and AsyncStorage for offline persistence."
+      ],
+      "github":"https://github.com/AkshatKumar10/ExpenseTracker",
+      "demo":"https://drive.google.com/drive/folders/12b6bxpySzCLu5pcqHvLAl9nWxEdYsi8n"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Dayananda Sagar College of Engineering, Bengaluru",
+      "degree": "BE in Computer Science and Engineering",
+      "date": "2023-current",
+      "score": "8.72 / 10"
+    },
+    {
+      "institution": "St. Mary's English High School, Jamshedpur",
+      "degree": "All India Senior School Certificate Examination (CBSE)(XII)",
+      "date": "2021-23",
+      "score": "84.8 %"
+    },
+    {
+      "institution": "Church School Beldih, Jamshedpur",
+      "degree": "Indian Certificate of Secondary Education (ICSE)(X)",
+      "date": "2021",
+      "score": "89.6 %"
+    }
+  ],
+  "achievements": [
+    "Solved 360+ problems on LeetCode, demonstrating strong problem-solving skills.",
+    "Secured Global Rank 3169 in LeetCode Weekly Contest 487 among 40,000+ participants."
+  ]
+}
