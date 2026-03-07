@@ -34,7 +34,7 @@ export default function Experience({ data }: { data: any[] }) {
                     {exp.company}
                   </p>
                 </div>
-                <div className="flex flex-wrap gap-4 text-sm text-gray-400">
+                <div className="flex flex-wrap gap-4 text-sm text-gray-300">
                   <span className="flex items-center gap-1">
                     <Calendar size={14} /> {exp.start} - {exp.end}
                   </span>

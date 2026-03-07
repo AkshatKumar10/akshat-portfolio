@@ -24,11 +24,12 @@ export default function Projects({ data }: { data: any[] }) {
           >
             <div className="flex justify-between items-center mb-6">
               <Folder className="text-blue-500" size={40} />
-              <div className="flex gap-4 text-gray-400">
+              <div className="flex gap-4 text-gray-300">
                 <a
                   href={project?.github}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="View source on GitHub"
                 >
                   <Github
                     size={22}
@@ -41,6 +42,7 @@ export default function Projects({ data }: { data: any[] }) {
                     href={project?.demo}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="View live demo"
                   >
                     <ExternalLink
                       size={22}
@@ -60,7 +62,7 @@ export default function Projects({ data }: { data: any[] }) {
               {project.description.map((bullet: string, i: number) => (
                 <li
                   key={i}
-                  className="text-gray-400 text-sm leading-relaxed list-disc ml-4"
+                  className="text-gray-300 text-sm leading-relaxed list-disc ml-4"
                 >
                   {bullet}
                 </li>

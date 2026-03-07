@@ -21,7 +21,7 @@ export default function Home() {
           <Education data={data.education} />
         </section>
 
-        <footer className="py-4 text-center text-gray-500 text-sm border-t border-white/5">
+        <footer className="py-4 text-center text-gray-400 text-sm border-t border-white/5">
           <p>Copyright © {new Date().getFullYear()} - Akshat Kumar</p>
         </footer>
       </div>

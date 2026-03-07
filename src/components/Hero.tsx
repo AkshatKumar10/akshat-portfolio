@@ -25,7 +25,7 @@ export default function Hero({ personal }: { personal: any }) {
           <h1 className="text-6xl md:text-8xl font-black mb-6 tracking-tighter bg-linear-to-r from-blue-400 via-white to-blue-600 bg-clip-text text-transparent">
             {personal.name.toUpperCase()}
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 max-w-2xl leading-relaxed mb-10">
+          <p className="text-xl md:text-2xl text-gray-300 max-w-2xl leading-relaxed mb-10">
             {personal.summary}
           </p>
 
@@ -44,6 +44,7 @@ export default function Hero({ personal }: { personal: any }) {
 
             <a
               href="/Akshat_Kumar_Resume.pdf"
+              aria-label="Download Resume"
               download
               className="px-8 py-4 border border-white/10 bg-gray-800 hover:bg-white/5 text-white rounded-full font-bold transition-all flex items-center gap-2 cursor-pointer"
             >
@@ -57,7 +58,8 @@ export default function Hero({ personal }: { personal: any }) {
                 key={i}
                 href={profile.url}
                 target="_blank"
-                className="text-gray-500 hover:text-blue-500 transition-transform duration-300 ease-out p-2 border border-white/5 rounded-xl bg-white/5 hover:border-blue-500/50 hover:scale-110"
+                aria-label={profile.social}
+                className="text-gray-400 hover:text-blue-500 transition-transform duration-300 ease-out p-2 border border-white/5 rounded-xl bg-white/5 hover:border-blue-500/50 hover:scale-110"
               >
                 {profile.social === "GitHub" && <Github size={24} />}
                 {profile.social === "LinkedIn" && <Linkedin size={24} />}
@@ -66,7 +68,8 @@ export default function Hero({ personal }: { personal: any }) {
             ))}
             <a
               href={`mailto:${personal.email}`}
-              className="text-gray-500 hover:text-blue-500 transition-transform duration-300 ease-out p-2 border border-white/5 rounded-xl bg-white/5 hover:border-blue-500/50 hover:scale-110"
+              aria-label="Send Email"
+              className="text-gray-400 hover:text-blue-500 transition-transform duration-300 ease-out p-2 border border-white/5 rounded-xl bg-white/5 hover:border-blue-500/50 hover:scale-110"
             >
               <Mail size={24} />
             </a>
