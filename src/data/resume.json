@@ -32,7 +32,8 @@
         "Built a full-stack AI Compliance tool to ensure AI content meets ethical and regulatory standards effectively.",
         "Implemented a rule validation feature allowing users to add or upload rules and view them with categorized severity levels.",
         "Developed the landing page with a clean layout, smooth interactions, and a user-friendly overall experience."
-      ]
+      ],
+      "certificate": "https://drive.google.com/file/d/1NVyLm2lcCW4E0xPAMCdm0I7lDsea9W2L/view?usp=drive_link"
     },
     {
       "company": "superFi",
@@ -45,7 +46,8 @@
         "Implemented a Bookmark feature, enabling users to save and access favorite content, which improved content retrieval efficiency & increased repeat engagement by 15%.",
         "Integrated a Share feature, enabling users to share content across platforms, increasing app visibility and engagement.",
         "Revamped the Credit Card UI, improving design, accessibility, and navigation for a more intuitive user experience."
-      ]
+      ],
+      "certificate": "https://drive.google.com/file/d/1iB9M9dAWXCOutwRmRyrZx2pU9Au1bvpU/view?usp=drive_link"
     }
   ],
   "projects": [
@@ -68,7 +70,7 @@
         "Built a model to evaluate the credit worthiness of small businesses using SBA loan data and assess borrower risk.",
         "Visualized data insights using Matplotlib and Seaborn, and improved model performance by handling class imbalance with Synthetic Minority Oversampling Technique (SMOTE)."
       ],
-      "github":"https://github.com/AkshatKumar10/Book-a-Cook"
+      "github":"https://github.com/AkshatKumar10/"
     },
     {
       "title": "Expense Tracker",
@@ -103,7 +105,7 @@
     }
   ],
   "achievements": [
-    "Solved 360+ problems on LeetCode, demonstrating strong problem-solving skills.",
+    "Solved 370+ problems on LeetCode, demonstrating strong problem-solving skills.",
     "Secured Global Rank 3169 in LeetCode Weekly Contest 487 among 40,000+ participants."
   ]
 }

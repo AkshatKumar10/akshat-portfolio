@@ -58,6 +58,18 @@ export default function Experience({ data }: { data: any[] }) {
                   </li>
                 ))}
               </ul>
+              {exp.certificate && (
+                <div className="mt-6">
+                  <a
+                    href={exp.certificate}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium bg-blue-500/10 text-blue-400 border border-blue-500/30 rounded-lg hover:bg-blue-500/20 transition"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+              )}
             </div>
           </motion.div>
         ))}
