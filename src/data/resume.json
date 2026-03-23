@@ -70,7 +70,8 @@
         "Built a model to evaluate the credit worthiness of small businesses using SBA loan data and assess borrower risk.",
         "Visualized data insights using Matplotlib and Seaborn, and improved model performance by handling class imbalance with Synthetic Minority Oversampling Technique (SMOTE)."
       ],
-      "github":"https://github.com/AkshatKumar10/"
+      "github":"https://github.com/AkshatKumar10/Credit-Risk-Analysis",
+      "demo":"https://credit-risk-analysis-07.streamlit.app/"
     },
     {
       "title": "Expense Tracker",
