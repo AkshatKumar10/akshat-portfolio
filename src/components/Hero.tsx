@@ -43,7 +43,7 @@ export default function Hero({ personal }: { personal: any }) {
             </button>
 
             <a
-              href="/Akshat_Kumar_Resume.pdf"
+              href="/AkshatKumar_Resume.pdf"
               aria-label="Download Resume"
               download
               className="px-8 py-4 border border-white/10 bg-gray-800 hover:bg-white/5 text-white rounded-full font-bold transition-all flex items-center gap-2 cursor-pointer"

@@ -22,7 +22,7 @@ export default function Projects({ data }: { data: any[] }) {
             transition={{ type: "spring", stiffness: 200, damping: 15 }}
             className="relative bg-linear-to-br from-white/10 to-transparent border border-white/10 rounded-3xl overflow-hidden p-8 hover:border-blue-500/40 hover:shadow-xl hover:shadow-blue-500/10"
           >
-            <div className="flex justify-between items-center mb-6">
+            <div className="flex justify-between items-center mb-2">
               <Folder className="text-blue-500" size={40} />
               <div className="flex gap-4 text-gray-300">
                 <a
@@ -52,12 +52,9 @@ export default function Projects({ data }: { data: any[] }) {
                 )}
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-2 transition-colors">
+            <h3 className="text-2xl font-bold mb-4 transition-colors">
               {project.title}
             </h3>
-            <p className="text-sm text-blue-500 font-mono mb-4">
-              {project.date}
-            </p>
             <ul className="space-y-3 mb-6">
               {project.description.map((bullet: string, i: number) => (
                 <li
