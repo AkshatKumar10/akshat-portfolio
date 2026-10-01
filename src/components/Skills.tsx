@@ -8,15 +8,19 @@ import {
   Layout,
   Sparkles,
   HeartHandshake,
+  Bot,
+  BookOpen,
 } from "lucide-react";
 
 const iconMap: any = {
   "Programming Languages": <Code2 size={22} />,
+  "AI / GenAI": <Bot size={22} />,
   Libraries: <Layout size={22} />,
   "Developer Tools": <Terminal size={22} />,
   "AI / Productivity Tools": <Sparkles size={22} />,
   Softwares: <Monitor size={22} />,
   Databases: <Database size={22} />,
+  "Relevant Coursework": <BookOpen size={22} />,
   "Soft Skills": <HeartHandshake size={22} />,
 };
 
