@@ -15,12 +15,59 @@
   "skills": [
     { "category": "Programming Languages", "items": ["C++", "Python"] },
     { "category": "Libraries", "items": ["NumPy", "Pandas", "Matplotlib"] },
-    { "category": "AI / GenAI", "items": ["Generative AI", "RAG", "Prompt Engineering", "LangChain", "LangGraph"] },
-    { "category": "Developer Tools", "items": ["React.js", "Docker", "React Native", "Node.js", "Express.js", "Tailwind CSS", "Firebase", "HTML", "CSS"] },
-    { "category": "Softwares", "items": ["GitHub Actions", "Android Studio", "Visual Studio Code", "Postman", "Git", "MS-Office"] },
+    {
+      "category": "AI / GenAI",
+      "items": [
+        "Generative AI",
+        "RAG",
+        "Prompt Engineering",
+        "LangChain",
+        "LangGraph"
+      ]
+    },
+    {
+      "category": "Developer Tools",
+      "items": [
+        "React.js",
+        "Docker",
+        "React Native",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS",
+        "Firebase",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "category": "Softwares",
+      "items": [
+        "GitHub Actions",
+        "Android Studio",
+        "Visual Studio Code",
+        "Postman",
+        "Git",
+        "MS-Office"
+      ]
+    },
     { "category": "Databases", "items": ["SQL", "PostgreSQL", "MongoDB"] },
-    { "category": "Relevant Coursework", "items": ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems"] },
-    { "category": "Soft Skills", "items": ["Quick Learner", "Ability to work independently and collaboratively", "Problem Solving"] }
+    {
+      "category": "Relevant Coursework",
+      "items": [
+        "Data Structures & Algorithms",
+        "OOP",
+        "DBMS",
+        "Operating Systems"
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "items": [
+        "Quick Learner",
+        "Ability to work independently and collaboratively",
+        "Problem Solving"
+      ]
+    }
   ],
   "experience": [
     {
@@ -53,8 +100,37 @@
   ],
   "projects": [
     {
+      "title": "Text2SQL with User Cost Tracking",
+      "stack": [
+        "Python",
+        "Langfuse",
+        "FastAPI",
+        "LangGraph",
+        "Groq API",
+        "SQLite",
+        "Pandas",
+        "React + Vite",
+        "Tailwind CSS"
+      ],
+      "description": [
+        "Built a multi-agent Text-to-SQL platform using LangGraph that converts natural language into validated SQLite queries, executes them with SQL self-repair, and generates interactive business intelligence visualizations.",
+        "Implemented cyclic SQL self-repair and user-level token, cost, and latency tracking with Langfuse observability."
+      ],
+      "github": "https://github.com/AkshatKumar10/Text2SQL-with-User-Cost-Tracking",
+      "demo": "https://text2sql-with-user-cost-tracking.onrender.com/"
+    },
+    {
       "title": "ChatDoc AI",
-      "stack": ["FastAPI", "Python", "LangChain", "Google Gemini API", "FAISS", "React + Vite", "Tailwind CSS", "GitHub Actions"],
+      "stack": [
+        "FastAPI",
+        "Python",
+        "LangChain",
+        "Google Gemini API",
+        "FAISS",
+        "React + Vite",
+        "Tailwind CSS",
+        "GitHub Actions"
+      ],
       "description": [
         "Built a full-stack conversational PDF Q&A platform using FastAPI, LangChain, React, and Google Gemini, supporting multi-PDF uploads and context-aware, multi-turn conversations.",
         "Implemented a RAG pipeline with PyPDF, FAISS, and Gemini embeddings for document retrieval, with prompt-based grounding to generate responses strictly from uploaded documents."
@@ -64,7 +140,15 @@
     },
     {
       "title": "BookACook",
-      "stack": ["React Native(Expo)", "Docker", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase Cloud Messaging"],
+      "stack": [
+        "React Native(Expo)",
+        "Docker",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Cloud Messaging"
+      ],
       "description": [
         "Developed a dual-module cook-booking application enabling users to browse cooks, book services with integrated payments, and receive booking responses, with the backend containerized using Docker.",
         "Built real-time FCM-based push notifications to ensure instant booking updates between users and cooks."
@@ -74,7 +158,18 @@
     },
     {
       "title": "Credit Risk Analysis",
-      "stack": ["Python", "Jupyter", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "MS-Excel", "SMOTE", "Streamlit"],
+      "stack": [
+        "Python",
+        "Jupyter",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
+        "MS-Excel",
+        "SMOTE",
+        "Streamlit"
+      ],
       "description": [
         "Built a model to evaluate the credit worthiness of small businesses using SBA loan data and assess borrower risk.",
         "Visualized data insights using Matplotlib and Seaborn, and improved model performance by handling class imbalance with Synthetic Minority Oversampling Technique (SMOTE)."
