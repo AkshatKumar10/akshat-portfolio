@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Calendar, MapPin, CheckCircle2 } from "lucide-react";
+import { Calendar, MapPin, CheckCircle2, Award, ExternalLink } from "lucide-react";
 
 export default function Experience({ data }: { data: any[] }) {
   return (
@@ -34,13 +34,25 @@ export default function Experience({ data }: { data: any[] }) {
                     {exp.company}
                   </p>
                 </div>
-                <div className="flex flex-wrap gap-4 text-sm text-gray-300">
+                <div className="flex flex-wrap items-center gap-4 text-sm text-gray-300">
                   <span className="flex items-center gap-1">
                     <Calendar size={14} /> {exp.start} - {exp.end}
                   </span>
                   <span className="flex items-center gap-1">
                     <MapPin size={14} /> {exp.location}
                   </span>
+                  {exp.certificate && (
+                    <a
+                      href={exp.certificate}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/15 border border-blue-500/30 text-blue-400 hover:bg-blue-500/25 hover:text-blue-300 transition-all shadow-sm"
+                    >
+                      <Award size={14} />
+                      <span>View Certificate</span>
+                      <ExternalLink size={12} />
+                    </a>
+                  )}
                 </div>
               </div>
 
