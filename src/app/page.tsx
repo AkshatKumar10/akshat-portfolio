@@ -1,5 +1,6 @@
 import data from "@/data/resume.json";
 import Background from "@/components/Background";
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen text-slate-200 selection:bg-blue-500/30">
       <Background />
+      <Navbar />
       <div className="relative z-10">
         <Hero personal={data.personal} />
         <Skills skills={data.skills} />

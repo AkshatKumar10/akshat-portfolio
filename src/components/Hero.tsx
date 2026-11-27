@@ -11,7 +11,7 @@ import {
 
 export default function Hero({ personal }: { personal: any }) {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center px-6 pt-20">
+    <section id="hero" className="relative min-h-screen flex flex-col justify-center px-6 pt-20 scroll-mt-8">
       <div className="max-w-6xl mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, y: 120 }}

@@ -100,7 +100,7 @@ export default function Contact({ personal }: { personal: any }) {
   };
 
   return (
-    <section id="contact" className="py-12 px-6 max-w-6xl mx-auto">
+    <section id="contact" className="py-12 px-6 max-w-6xl mx-auto scroll-mt-8">
       <motion.h2
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}

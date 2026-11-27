@@ -4,7 +4,7 @@ import { Calendar, MapPin, CheckCircle2 } from "lucide-react";
 
 export default function Experience({ data }: { data: any[] }) {
   return (
-    <section id="experience" className="py-12 px-6 max-w-6xl mx-auto">
+    <section id="experience" className="py-12 px-6 max-w-6xl mx-auto scroll-mt-8">
       <motion.h2
         initial={{ opacity: 0, x: -60 }}
         whileInView={{ opacity: 1, x: 0 }}
