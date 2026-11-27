@@ -28,6 +28,7 @@
       "location": "Remote",
       "start": "Sep 2025",
       "end": "Nov 2025",
+      "certificate": "https://drive.google.com/file/d/1F62xGClY4x2BnL7MfVBYSnWWdy_qnIAz/view?usp=drive_link",
       "description": [
         "Built a full-stack AI Compliance tool to ensure AI content meets ethical and regulatory standards effectively.",
         "Implemented a rule validation feature allowing users to add or upload rules and view them categorized by severity levels.",
@@ -40,6 +41,7 @@
       "location": "Remote",
       "start": "Dec 2024",
       "end": "Jun 2025",
+      "certificate": "https://drive.google.com/file/d/1esCVOVM09Yvxcs35oD06yZFMr8_yFAp1/view?usp=drive_link",
       "description": [
         "Built and optimized reusable UI components using React Native and Tailwind CSS, improving code maintainability.",
         "Implemented a Bookmark feature that allows users to save, organize, and quickly access their preferred content.",
