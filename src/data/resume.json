@@ -13,61 +13,13 @@
     ]
   },
   "skills": [
-    { "category": "Programming Languages", "items": ["C++", "Python"] },
-    { "category": "Libraries", "items": ["NumPy", "Pandas", "Matplotlib"] },
-    {
-      "category": "AI / GenAI",
-      "items": [
-        "Generative AI",
-        "RAG",
-        "Prompt Engineering",
-        "LangChain",
-        "LangGraph"
-      ]
-    },
-    {
-      "category": "Developer Tools",
-      "items": [
-        "React.js",
-        "Docker",
-        "React Native",
-        "Node.js",
-        "Express.js",
-        "Tailwind CSS",
-        "Firebase",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "category": "Softwares",
-      "items": [
-        "GitHub Actions",
-        "Android Studio",
-        "Visual Studio Code",
-        "Postman",
-        "Git",
-        "MS-Office"
-      ]
-    },
-    { "category": "Databases", "items": ["SQL", "PostgreSQL", "MongoDB"] },
-    {
-      "category": "Relevant Coursework",
-      "items": [
-        "Data Structures & Algorithms",
-        "OOP",
-        "DBMS",
-        "Operating Systems"
-      ]
-    },
-    {
-      "category": "Soft Skills",
-      "items": [
-        "Quick Learner",
-        "Ability to work independently and collaboratively",
-        "Problem Solving"
-      ]
-    }
+    { "category": "Programming Languages", "items": ["C++", "Python", "JavaScript"] },
+    { "category": "AI / GenAI", "items": ["Generative AI", "RAG", "Prompt Engineering", "LangChain", "LangGraph", "Langfuse"] },
+    { "category": "Frameworks & Libraries", "items": ["React.js", "React Native", "FastAPI", "Node.js", "Express.js", "Tailwind CSS"] },
+    { "category": "Developer Tools", "items": ["Git", "GitHub Actions", "Docker", "Postman", "Android Studio", "Firebase"] },
+    { "category": "Databases", "items": ["MongoDB", "SQL", "PostgreSQL"] },
+    { "category": "Relevant Coursework", "items": ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems"] },
+    { "category": "Soft Skills", "items": ["Quick Learner", "Problem Solving"] }
   ],
   "experience": [
     {

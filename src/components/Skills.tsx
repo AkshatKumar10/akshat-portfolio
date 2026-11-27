@@ -15,18 +15,16 @@ import {
 const iconMap: any = {
   "Programming Languages": <Code2 size={22} />,
   "AI / GenAI": <Bot size={22} />,
-  Libraries: <Layout size={22} />,
+  "Frameworks & Libraries": <Layout size={22} />,
   "Developer Tools": <Terminal size={22} />,
-  "AI / Productivity Tools": <Sparkles size={22} />,
-  Softwares: <Monitor size={22} />,
-  Databases: <Database size={22} />,
+  "Databases": <Database size={22} />,
   "Relevant Coursework": <BookOpen size={22} />,
   "Soft Skills": <HeartHandshake size={22} />,
 };
 
 export default function Skills({ skills }: { skills: any[] }) {
   return (
-    <section id="skills" className="py-12 px-6 max-w-6xl mx-auto">
+    <section id="skills" className="py-12 px-6 max-w-6xl mx-auto scroll-mt-8">
       <motion.h2
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
